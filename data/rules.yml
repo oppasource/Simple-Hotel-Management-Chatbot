@@ -1,0 +1,76 @@
+version: "2.0"
+
+rules:
+# Rule for room booking
+- rule: checking hotel room book form is completed
+  condition:
+    # Condition that form is active.
+    - active_loop: room_book_form
+  steps:
+    - action: room_book_form
+    - active_loop: null
+    # The action we want to run when the form is submitted.
+    - action: action_room_book_results
+
+# Rule for room cleaning
+- rule: checking hotel clean room form is completed
+  condition:
+    # Condition that form is active.
+    - active_loop: clean_room_form
+  steps:
+    - action: clean_room_form
+    - active_loop: null
+    # The action we want to run when the form is submitted.
+    - action: action_clean_room_results
+
+    
+
+
+# Rules for FAQs
+- rule: Ask FAQ check-in time
+  steps:
+    - intent: ask_checkin_time
+    - action: utter_checkin_time_info
+
+- rule: Ask FAQ check-out time
+  steps:
+    - intent: ask_checkout_time
+    - action: utter_checkout_time_info
+
+- rule: Ask FAQ cancel reservation
+  steps:
+    - intent: ask_cancel_reservation
+    - action: utter_cancel_reservation_info_1
+    - action: utter_cancel_reservation_info_2
+
+- rule: Ask FAQ cancel policy
+  steps:
+    - intent: ask_cancel_policy
+    - action: utter_cancel_policy_info
+
+
+- rule: Ask FAQ restaurant present
+  steps:
+    - intent: ask_restaurant_present
+    - action: utter_restaurant_present_info
+
+
+- rule: Ask FAQ breakfast available
+  steps:
+    - intent: ask_breakfast_available
+    - action: utter_breakfast_available_info
+
+
+- rule: Ask FAQ breakfast time
+  steps:
+    - intent: ask_breakfast_time
+    - action: utter_breakfast_time_info
+
+
+- rule: Ask FAQ restaurant time
+  steps:
+    - intent: ask_restaurant_time
+    - action: utter_restaurant_time_info
+
+
+

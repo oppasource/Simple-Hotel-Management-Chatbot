@@ -1,0 +1,149 @@
+version: "2.0"
+
+nlu:
+- intent: book_room
+  examples: |
+    - I want to book a room
+    - May I get a room
+    - Are rooms available
+    - Can I get a room please
+    - I need to get a room here
+    - Help me get a room
+
+
+- intent: clean_room
+  examples: |
+    - I want to have my room cleaned
+    - Can you please send someone to clean room
+    - clean room
+    - room clean
+    - get room cleaned
+    - clean my room room
+    - i wanted room cleaning service
+    - i need to get room cleaned now
+
+
+- intent: inform
+  examples: |
+    - [simple](type_room)
+    - [deluxe](type_room)
+    - [simple](type_room) room please
+    - [deluxe](type_room) room please
+
+
+- intent: ask_checkin_time
+  examples: |
+    - What are your check-in timings?
+    - May I know the check-in timings?
+    - Can you tell me the check-in timings?
+    - Please let me know the check-in time
+    - Can I check-in early?
+    - Do you allow early check-in?
+    - what is the check-in time?
+    - Is there any age criteria for check-in?
+    - what is the min age to do a check-in?
+
+- intent: ask_checkout_time
+  examples: |
+    - What are your check-out timings?
+    - May I know the check-out timings?
+    - Can you tell me the check-out timings?
+    - Please let me know the check-out time
+    - Can I check-out late?
+    - Do you allow late check-out?
+    - what is the check-out time?
+
+- intent: ask_cancel_reservation
+  examples: |
+    - How do I cancel a reservation?
+    - how to cancel booking?
+    - cancel reservation
+    - instructions for reservation cancellation
+    - cancel my room reservations
+    - I want to cancel my bookings
+    - how to cancel a reservation?
+
+- intent: ask_cancel_policy
+  examples: |
+    - What is your cancellation policy?
+    - what is the cancellation policy?
+    - cancellation policy
+    - refund policy
+    - what is refund policy?
+    - when will i get my refund?
+
+
+- intent: ask_restaurant_present
+  examples: |
+    - Does the hotel have a restaurant?
+    - is restaurant present?
+    - Is there a restaurant present with the hotel?
+    - do you have a restaurant as well?
+    - is eatery available?
+    - do you serve food as well?
+    - is there any attached restaurant?
+
+
+- intent: ask_breakfast_available
+  examples: |
+    - Does the hotel offer breakfast?
+    - is there free breakfast?
+    - is complementry breakfast available?
+    - do you provide free breakfast?
+    - is breakfast included?
+
+
+- intent: ask_breakfast_time
+  examples: |
+    - What are the breakfast timings?
+    - what is breakfast timings?
+    - breakfast timings
+    - let me know breakfast timings
+    - give information about breakfast timings
+    - what is the breakfast duration?
+    - is breakfast timings different on weekends?
+
+
+- intent: ask_restaurant_time
+  examples: |
+    - What are the timings of your restaurant?
+    - restaurant timings
+    - when does the restaurant close?
+    - what time does restaurant close?
+    - at what time does the restaurant open?
+    - what is the restaurant opening time?
+
+
+
+
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+
