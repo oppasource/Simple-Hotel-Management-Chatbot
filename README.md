@@ -1,4 +1,4 @@
-# Simple Hotel Management Chatbot using (RASA)[https://rasa.com]
+# Simple Hotel Management Chatbot using [RASA](https://rasa.com)
 
 This is a simple chatbot for a Hotel to handle room booking and cleaning requests along with FAQs.
 
