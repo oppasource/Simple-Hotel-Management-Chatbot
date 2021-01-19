@@ -3,6 +3,10 @@
 This is a simple chatbot for a Hotel to handle room booking and cleaning requests along with FAQs. Built using [RASA](https://rasa.com).
 
 ## Steps to run the code
+Train the NLU and Core models for chatbot
+```
+rasa train
+```
 
 Start the duckling entity extractor server.
 ```
