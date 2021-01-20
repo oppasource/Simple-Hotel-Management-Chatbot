@@ -114,6 +114,16 @@ nlu:
     - what is the restaurant opening time?
 
 
+- intent: out_of_scope
+  examples: |
+    - something random
+    - knf ifionfin
+    - dnfnfnoefin
+    - who is the president?
+    - can you answer anything?
+    - what is the capital of india
+    - what should i do today
+    - help me with my homework
 
 
 - intent: greet

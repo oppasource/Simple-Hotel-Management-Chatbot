@@ -1,5 +1,5 @@
 # exclude everything from a folder
-model/*
+models/*
 
 # exception to the rule
 !models/.gitkeep

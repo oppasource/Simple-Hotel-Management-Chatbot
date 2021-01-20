@@ -73,4 +73,10 @@ rules:
     - action: utter_restaurant_time_info
 
 
+- rule: Out of scope input
+  steps:
+    - intent: out_of_scope
+    - action: utter_out_of_scope
+
+
 

@@ -14,6 +14,7 @@ intents:
   - ask_breakfast_available
   - ask_breakfast_time
   - ask_restaurant_time
+  - out_of_scope
 
 
 entities:
@@ -84,6 +85,9 @@ responses:
 
   utter_restaurant_time_info:
   - text: "Our restaurant serves a dazzling 24-hour menu."
+
+  utter_out_of_scope:
+  - text: "Sorry, I can only process room booking and cleaning requests."
 
 
 forms:
